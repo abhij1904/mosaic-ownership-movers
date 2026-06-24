@@ -30,6 +30,10 @@ td.l,th.l{text-align:left} td.hn{text-align:left;max-width:340px;white-space:nor
 .own.flag{background:#fffaf2;border-color:#f0e2c8} a.grp{font-weight:600}
 h3.oh{font-size:12px;color:#555;margin:12px 0 2px;text-transform:uppercase;letter-spacing:.3px}
 table.otab{margin-top:2px} table.otab td,table.otab th{padding:4px 7px}
+table.hold thead th{position:sticky;top:0;background:#fff;box-shadow:0 1px 0 #eee}
+table.recon td.note{text-align:left;color:#888;font-size:11px;white-space:normal}
+table.recon tr.sub td{color:#888} table.recon tr.tot td{border-top:2px solid #ddd;font-weight:600}
+table.recon tr.retail{background:#fcfbf7}
 </style>
 <div class="nav"><a href="../index.html">&larr; Movers this quarter</a><a href="../companies.html">Browse all companies</a><a href="../groups.html">Promoter groups</a></div>
 <h1>Crompton Greaves Consumer Electricals Limited <span style="color:#888">(CROMPTON)</span></h1>
@@ -50,31 +54,43 @@ table.otab{margin-top:2px} table.otab td,table.otab th{padding:4px 7px}
 <h2>Ownership structure</h2>
 <div class="sub">From the ownership graph (promoter-group control + listed cross-holdings), point-in-time latest quarter. Group/holding figures trace to the SEBI filing.</div>
 <div class="own"><b>Controlled by</b>: no single controlling group — promoter holding is diffuse / unresolved (shown as named holders below, no group asserted).</div>
+<h2>Shareholding — full picture (category reconciliation)</h2><div class="sub">SEBI shareholding patterns name <b>all promoters</b> and <b>public holders above 1%</b>, plus category aggregates and a total holder count; sub-1% retail holders are counted, not named. Figures below are the filing's category totals · <a href="https://nsearchives.nseindia.com/corporate/xbrl/SHP_1654768_20042026020548_WEB.xml">[source filing]</a></div><table class="recon"><thead><tr><th class="l">Category</th><th>Holding%</th><th># holders</th><th class="note">notes</th></tr></thead><tbody><tr class=""><td class="l">FII / FPI</td><td>20.49%</td><td>210</td><td class="note">institutional; &gt;1% named below</td></tr>
+<tr class=""><td class="l">DII (domestic institutions)</td><td>66.12%</td><td>98</td><td class="note">institutional; &gt;1% named below</td></tr>
+<tr class="sub"><td class="l">&nbsp;&nbsp;&nbsp;of which mutual funds</td><td>54.49%</td><td>38</td><td class="note"></td></tr>
+<tr class="sub"><td class="l">&nbsp;&nbsp;&nbsp;of which insurance</td><td>10.2%</td><td>23</td><td class="note"></td></tr>
+<tr class=""><td class="l">Government</td><td>0.01%</td><td>2</td><td class="note"></td></tr>
+<tr class="retail"><td class="l">Public / non-institutional (retail)</td><td>13.37%</td><td>312,107</td><td class="note">below 1% each — <b>not individually disclosed</b> by SEBI; only the &gt;1% public holders above are named</td></tr>
+<tr class="tot"><td class="l">Sum (promoter + FII + DII + govt + retail)</td><td>99.99%</td><td>312,417</td><td class="note">reconciles to panel total 100% (312,417 total shareholders)</td></tr></tbody></table>
 
-<h2>Top named holders — public &amp; institutional</h2>
-<div class="sub">As filed for 2026 Q1 · showing top 20 of 25 named · resolved identities (<span class="res">&rarr;</span>) are the resolver's assignment; unresolved names shown exactly as filed · <a href="https://nsearchives.nseindia.com/corporate/xbrl/SHP_1654768_20042026020548_WEB.xml">[source filing]</a></div>
-<table><tr><th style="width:70px">%</th><th class="l">Holder (as filed → resolved identity)</th></tr>
-<tr><td>9.82</td><td class="hn"><span class="raw">HDFC MUTUAL FUND - HDFC BUSINESS CYCLE FUND</span> <span class="res">&rarr; HDFC MF</span><span class="cat">MF</span></td></tr>
-<tr><td>9.11</td><td class="hn"><span class="raw">MIRAE ASSET ELSS TAX SAVER FUND</span> <span class="res">&rarr; MIRAE</span><span class="cat">MF</span></td></tr>
-<tr><td>8.95</td><td class="hn"><span class="raw">NIPPON LIFE INDIA TRUSTEE LTD-A/C NIPPON INDIA NIF</span> <span class="res">&rarr; NIPPON MF</span><span class="cat">MF</span></td></tr>
-<tr><td>4.12</td><td class="hn"><span class="raw">GOVERNMENT PENSION FUND GLOBAL</span> <span class="res">&rarr; NORGES</span><span class="cat">FII/FPI</span></td></tr>
-<tr><td>3.74</td><td class="hn"><span class="raw">UTI AGGRESSIVE HYBRID FUND</span> <span class="res">&rarr; UTI MF</span><span class="cat">MF</span></td></tr>
-<tr><td>3.19</td><td class="hn"><span class="raw">FRANKLIN INDIA DIVIDEND YIELD FUND</span> <span class="res">&rarr; FRANKLIN</span><span class="cat">MF</span></td></tr>
-<tr><td>2.84</td><td class="hn"><span class="raw">HDFC LIFE INSURANCE COMPANYLIMITED -SHAREHOLDERS S</span> <span class="res">&rarr; HDFC LIFE</span><span class="cat">Insurer</span></td></tr>
-<tr><td>2.60</td><td class="hn"><span class="raw">BANDHAN NIFTY SMALL CAP 250 INDEX FUND</span> <span class="res">&rarr; BANDHAN MF</span><span class="cat">MF</span></td></tr>
-<tr><td>2.33</td><td class="hn"><span class="raw">ADITYA BIRLA SUN LIFE TRUSTEE PRIVATE LIMITED A/C</span> <span class="res">&rarr; ABSL MF</span><span class="cat">MF</span></td></tr>
-<tr><td>2.32</td><td class="hn"><span class="raw">CANARA ROBECO MUTUAL FUND A/C  CANARA ROBECO VALUE</span> <span class="res">&rarr; CANARA MF</span><span class="cat">MF</span></td></tr>
-<tr><td>1.99</td><td class="hn"><span class="raw">KOTAK MAHINDRA TRUSTEE CO LTD A/C KOTAK RURAL OPPO</span> <span class="res">&rarr; KOTAK MF</span><span class="cat">MF</span></td></tr>
-<tr><td>1.77</td><td class="hn"><span class="raw">DSP ELSS TAX SAVER FUND</span> <span class="unres">as filed</span><span class="cat">MF</span></td></tr>
-<tr><td>1.68</td><td class="hn"><span class="raw">ICICI PRUDENTIAL MANUFACTURING FUND</span> <span class="res">&rarr; ICICI PRU MF</span><span class="cat">MF</span></td></tr>
-<tr><td>1.49</td><td class="hn"><span class="raw">LICI HEALTH PROTECTION PLUS FUND</span> <span class="res">&rarr; LIC</span><span class="cat">Insurer</span></td></tr>
-<tr><td>1.44</td><td class="hn"><span class="raw">VANGUARD TOTAL INTERNATIONAL STOCK INDEX FUND</span> <span class="res">&rarr; VANGUARD</span><span class="cat">FII/FPI</span></td></tr>
-<tr><td>1.39</td><td class="hn"><span class="raw">VANGUARD EMERGING MARKETS STOCK INDEX FUND, A SERI</span> <span class="res">&rarr; VANGUARD</span><span class="cat">FII/FPI</span></td></tr>
-<tr><td>1.38</td><td class="hn"><span class="raw">AXIS MUTUAL FUND TRUSTEE LIMITED A/C AXIS MUTUAL F</span> <span class="res">&rarr; AXIS MF</span><span class="cat">MF</span></td></tr>
-<tr><td>1.19</td><td class="hn"><span class="raw">BAJAJ LIFE INSURANCE LIMITED</span> <span class="unres">as filed</span><span class="cat">Insurer</span></td></tr>
-<tr><td>1.14</td><td class="hn"><span class="raw">ICICI PRUDENTIAL LIFE INSURANCE COMPANY LIMITED</span> <span class="res">&rarr; ICICI PRU LIFE</span><span class="cat">Insurer</span></td></tr>
-<tr><td>1.14</td><td class="hn"><span class="raw">ISHARES CORE MSCI EMERGING MARKETS ETF</span> <span class="unres">as filed</span><span class="cat">FII/FPI</span></td></tr>
-</table>
+<h2>All named holders — public &amp; institutional (above 1%)</h2>
+<div class="sub">As filed for 2026 Q1 · showing <b>all 25</b> named holders (full precision, sorted by stake) · resolved identities (<span class="res">&rarr;</span>) are the resolver's assignment; unresolved names shown exactly as filed · <a href="https://nsearchives.nseindia.com/corporate/xbrl/SHP_1654768_20042026020548_WEB.xml">[source filing]</a></div>
+<table class="hold"><thead><tr><th style="width:80px">%</th><th class="l">Holder (as filed → resolved identity)</th></tr></thead><tbody>
+<tr><td>9.82%</td><td class="hn"><span class="raw">HDFC MUTUAL FUND - HDFC BUSINESS CYCLE FUND</span> <span class="res">&rarr; HDFC MF</span><span class="cat">MF</span></td></tr>
+<tr><td>9.11%</td><td class="hn"><span class="raw">MIRAE ASSET ELSS TAX SAVER FUND</span> <span class="res">&rarr; MIRAE</span><span class="cat">MF</span></td></tr>
+<tr><td>8.95%</td><td class="hn"><span class="raw">NIPPON LIFE INDIA TRUSTEE LTD-A/C NIPPON INDIA NIF</span> <span class="res">&rarr; NIPPON MF</span><span class="cat">MF</span></td></tr>
+<tr><td>4.12%</td><td class="hn"><span class="raw">GOVERNMENT PENSION FUND GLOBAL</span> <span class="res">&rarr; NORGES</span><span class="cat">FII/FPI</span></td></tr>
+<tr><td>3.74%</td><td class="hn"><span class="raw">UTI AGGRESSIVE HYBRID FUND</span> <span class="res">&rarr; UTI MF</span><span class="cat">MF</span></td></tr>
+<tr><td>3.19%</td><td class="hn"><span class="raw">FRANKLIN INDIA DIVIDEND YIELD FUND</span> <span class="res">&rarr; FRANKLIN</span><span class="cat">MF</span></td></tr>
+<tr><td>2.84%</td><td class="hn"><span class="raw">HDFC LIFE INSURANCE COMPANYLIMITED -SHAREHOLDERS S</span> <span class="res">&rarr; HDFC LIFE</span><span class="cat">Insurer</span></td></tr>
+<tr><td>2.6%</td><td class="hn"><span class="raw">BANDHAN NIFTY SMALL CAP 250 INDEX FUND</span> <span class="res">&rarr; BANDHAN MF</span><span class="cat">MF</span></td></tr>
+<tr><td>2.33%</td><td class="hn"><span class="raw">ADITYA BIRLA SUN LIFE TRUSTEE PRIVATE LIMITED A/C</span> <span class="res">&rarr; ABSL MF</span><span class="cat">MF</span></td></tr>
+<tr><td>2.32%</td><td class="hn"><span class="raw">CANARA ROBECO MUTUAL FUND A/C  CANARA ROBECO VALUE</span> <span class="res">&rarr; CANARA MF</span><span class="cat">MF</span></td></tr>
+<tr><td>1.99%</td><td class="hn"><span class="raw">KOTAK MAHINDRA TRUSTEE CO LTD A/C KOTAK RURAL OPPO</span> <span class="res">&rarr; KOTAK MF</span><span class="cat">MF</span></td></tr>
+<tr><td>1.77%</td><td class="hn"><span class="raw">DSP ELSS TAX SAVER FUND</span> <span class="unres">as filed</span><span class="cat">MF</span></td></tr>
+<tr><td>1.68%</td><td class="hn"><span class="raw">ICICI PRUDENTIAL MANUFACTURING FUND</span> <span class="res">&rarr; ICICI PRU MF</span><span class="cat">MF</span></td></tr>
+<tr><td>1.49%</td><td class="hn"><span class="raw">LICI HEALTH PROTECTION PLUS FUND</span> <span class="res">&rarr; LIC</span><span class="cat">Insurer</span></td></tr>
+<tr><td>1.44%</td><td class="hn"><span class="raw">VANGUARD TOTAL INTERNATIONAL STOCK INDEX FUND</span> <span class="res">&rarr; VANGUARD</span><span class="cat">FII/FPI</span></td></tr>
+<tr><td>1.39%</td><td class="hn"><span class="raw">VANGUARD EMERGING MARKETS STOCK INDEX FUND, A SERI</span> <span class="res">&rarr; VANGUARD</span><span class="cat">FII/FPI</span></td></tr>
+<tr><td>1.38%</td><td class="hn"><span class="raw">AXIS MUTUAL FUND TRUSTEE LIMITED A/C AXIS MUTUAL F</span> <span class="res">&rarr; AXIS MF</span><span class="cat">MF</span></td></tr>
+<tr><td>1.19%</td><td class="hn"><span class="raw">BAJAJ LIFE INSURANCE LIMITED</span> <span class="unres">as filed</span><span class="cat">Insurer</span></td></tr>
+<tr><td>1.14%</td><td class="hn"><span class="raw">ICICI PRUDENTIAL LIFE INSURANCE COMPANY LIMITED</span> <span class="res">&rarr; ICICI PRU LIFE</span><span class="cat">Insurer</span></td></tr>
+<tr><td>1.14%</td><td class="hn"><span class="raw">ISHARES CORE MSCI EMERGING MARKETS ETF</span> <span class="unres">as filed</span><span class="cat">FII/FPI</span></td></tr>
+<tr><td>1.13%</td><td class="hn"><span class="raw">ABU DHABI INVESTMENT AUTHORITY - MONSOON</span> <span class="res">&rarr; ADIA</span><span class="cat">FII/FPI</span></td></tr>
+<tr><td>1.04%</td><td class="hn"><span class="raw">BNP PARIBAS FINANCIAL MARKETS - ODI</span> <span class="unres">as filed</span><span class="cat">FII/FPI</span></td></tr>
+<tr><td>1.01%</td><td class="hn"><span class="raw">TATA AIA LIFE INSURANCE COMPANY LIMITED A/C DIAMON</span> <span class="unres">as filed</span><span class="cat">Insurer</span></td></tr>
+<tr><td>0.01%</td><td class="hn"><span class="raw">FOREIGN INSTITUTIONAL INVESTORS</span> <span class="unres">as filed</span><span class="cat">MF</span></td></tr>
+<tr><td>0%</td><td class="hn"><span class="raw">FOREIGN BANK</span> <span class="unres">as filed</span><span class="cat">MF</span></td></tr>
+</tbody></table>
 <table><tr><th class='q'>Quarter</th><th>Promoter</th><th>Pledge¹</th><th>FII/FPI</th><th>DII</th><th>MFs</th><th>Insurers</th><th>Govt</th><th>Public</th></tr>
 <tr><td class="q"><a href="https://nsearchives.nseindia.com/corporate/xbrl/SHP_1654768_20042026020548_WEB.xml">2026 Q1</a><br><span style="color:#aaa;font-size:10px">filed 2026-04-20</span></td><td class="na">—</td><td class="na">—</td><td>20.49<span class="d dn">▼0.06</span></td><td>66.12<span class="d up">▲0.38</span></td><td>54.49<span class="d dn">▼0.09</span></td><td>10.20<span class="d up">▲0.36</span></td><td>0.01<span class="d" style="color:#bbb">·</span></td><td>13.37<span class="d dn">▼0.33</span></td></tr>
 <tr><td class="q"><a href="https://nsearchives.nseindia.com/corporate/xbrl/SHP_1604186_19012026034810_WEB.xml">2025 Q4</a><br><span style="color:#aaa;font-size:10px">filed 2026-01-19</span></td><td class="na">—</td><td class="na">—</td><td>20.55<span class="d dn">▼5.01</span></td><td>65.74<span class="d up">▲4.50</span></td><td>54.58<span class="d up">▲3.77</span></td><td>9.84<span class="d up">▲1.13</span></td><td>0.01<span class="d" style="color:#bbb">·</span></td><td>13.70<span class="d up">▲0.51</span></td></tr>
